@@ -2,13 +2,14 @@
  position: fixed;
  top: 0;
  left: 0;
+ right: 0;
 
  background-color: #141D2F;
   width:100%;
   height: 109px;
   display: flex;
-  align-items: center;
-  justify-content: right;
+  align-items:  center;
+  justify-content:  space-between;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -19,13 +20,19 @@
 .navbarContent {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 1440px;
   height: 104px;
 }
 
 
-/* .navbarLeft {} */
+.navbarLeft {
+
+  img {
+    width: 150px;
+    height: 35px;
+  }
+}
 
 
 
@@ -33,7 +40,7 @@
 .navbarRight {
   display: flex;
   justify-content: space-between;
-
+  right: 0;
   width: 524px;
   height: 35px;
   gap: 92px;
