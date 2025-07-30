@@ -23,7 +23,7 @@ export class AppComponent {
 
     constructor(private translate: TranslateService, /* public router: Router */) {
     this.translate.addLangs(['de', 'en']);
-    this.translate.setDefaultLang('de');
+    this.translate.setDefaultLang('en');
     this.translate.use('de');
   }
 
