@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
+currentLang: any;
+toogleTranslation(arg0: string) {
+throw new Error('Method not implemented.');
+}
 
 }

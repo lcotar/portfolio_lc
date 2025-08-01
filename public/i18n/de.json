@@ -8,8 +8,10 @@
 
 
   "home": {
+    "whoIs": "Ich bin",
     "name": "Lea Cotar",
-    "role": "Frontend Entwicklerin"
+    "role": "Frontend Entwicklerin",
+    "talk": "Lasst uns reden!"
   },
 
 "aboutMe": {

@@ -8,9 +8,11 @@
 
 
   "home": {
+    "whoIs": "I am",
     "name": "Lea Cotar",
-    "role": "Frontend Developer"
-  },
+    "role": "Frontend Developer",
+    "talk": "Let's talk!"
+    },
 
 "aboutMe": {
   "header": "About me",
