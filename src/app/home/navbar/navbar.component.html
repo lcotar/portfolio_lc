@@ -15,8 +15,8 @@
 
 
     <div class="navbarSwitchlanguage">
-      <button>DE</button>
-      <button>EN</button>
+      <button [class.active-lang]="currentLang === 'de'" (click)="toogleTranslation('de')">DE</button>
+      <button [class.active-lang]="currentLang === 'de'" (click)="toogleTranslation('en')">EN</button>
     </div>
 
     </div>
